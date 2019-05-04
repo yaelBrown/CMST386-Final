@@ -1,6 +1,12 @@
-.border {
+.wborder {
+  border: 1px solid #fff;
+  z-index: 999;
+}
+
+.bborder {
   border: 1px solid #000;
 }
+
 
 /*
   Body
@@ -8,9 +14,46 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
 }
 
 .container {
   width: 70%;
   margin: 30px auto 0 auto;
+}
+
+/*
+  Nav
+*/
+
+nav {
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 100;
+}
+
+nav ul {
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+/*
+  Main
+*/
+
+main {
+  padding-top: 80px;
+  width: 100%;
 }
