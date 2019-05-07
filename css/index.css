@@ -91,9 +91,18 @@
     z-index: 80;
   }
 
-  .products, .randomPics {
+  .aboutUs, .products, .randomPics, .footer {
     padding: 10px;
     z-index: 85;
+  }
+
+/*
+  About Us
+*/
+
+  .aboutUs {
+    width: 80%;
+    margin: 0 auto 0 auto;
   }
 
 /*
@@ -144,6 +153,25 @@
     text-align: center;
   }
 
+  .orderBtn {
+    width: 70%;
+    height: 5em;
+    margin: 0 auto 0 auto;
+    background-color: #000;
+    margin-bottom: 10em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5em;
+    cursor: pointer;
+  }
+
+  .orderBtn-text {
+    color: #fff;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
 /*
   Random Pictures Section
 */
@@ -185,29 +213,57 @@
 /*
   Footer
 */
+  footer {
+    width: 100%;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
   .footer {
-    height: 500px;
+    height: 20em;
     background-color: #636e72;
     z-index: 85;
     color: #fff;
     padding: 10px;
-    text-align: center;
     display: flex;
   }
 
   .footer a {
     color: #fff;
+    display: flex;
+  }
+
+  .footer-left, .footer-right {
+    margin: 0 auto 0 auto;
   }
 
   .footer-left {
-    width: 100px;
+    flex: 1;
+    order: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     display: flex;
-    text-align: left;
   }
 
   .footer-right {
-    width: 100px;
-    display: contents;
-    text-align: left;
+    flex: 1;
+    order: 2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .footer-end-row {
+    display: flex;
+  }
+
+  .footer-end {
+    flex: 1;
+    align-content: center;
+    text-align: center;
   }
 }
