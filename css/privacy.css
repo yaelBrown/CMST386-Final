@@ -45,37 +45,22 @@
   }
 
   /*
-    Jumbotron Section
+  Social Media
   */
-
-  .jumbotron {
-    width: auto;
-    padding-left: 60px;
-    padding-right: 60px;
-    height: 50vh;
-  }
-
-  #jumbotronVideo {
-    left: -1px;
-    top: 0px;
-    right: 0px;
-    position: fixed;
-    z-index: -100;
-    width: 105%;
-    height: 56vh;
-    filter: blur(10px) grayscale(100%);
-    height: auto;
-  }
-
-  .jumbotronHeader {
-    z-index: 90;
-    background: rgba(0, 0, 0, 0.5);
-    width: 30%;
-    margin: 300px auto 0 auto;
-    color: #fff;
-    padding: 10px;
+  .socialLinks {
+    color: #b2bec3;
     text-align: center;
-    bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+  }
+
+  .socialLinkks-Links {
+    padding: 20px;
+  }
+
+  i {
+    font-size: 4em;
+    padding: .2em;
   }
 
   /*
@@ -96,25 +81,6 @@
     width: 30%;
     height: auto;
     display: inline-block;
-  }
-
-  /*
-  Social Media
-  */
-  .socialLinks {
-    color: #b2bec3;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 130px;
-  }
-
-  .socialLinkks-Links {
-    padding: 20px;
-  }
-
-  i {
-    font-size: 4em;
-    padding: .2em;
   }
 
   /*

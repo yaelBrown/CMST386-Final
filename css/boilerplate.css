@@ -30,7 +30,7 @@
   }}
 
 /* Larger than desktop */
-@media only screen and (min-width: 1000px) {  
+@media only screen and (min-width: 800px) {  
   /* for testing media queries */
   #img-comp {
     display: none;
@@ -42,40 +42,6 @@
 
   #img-phone {
     display: none;
-  }
-
-  /*
-    Jumbotron Section
-  */
-
-  .jumbotron {
-    width: auto;
-    padding-left: 60px;
-    padding-right: 60px;
-    height: 50vh;
-  }
-
-  #jumbotronVideo {
-    left: -1px;
-    top: 0px;
-    right: 0px;
-    position: fixed;
-    z-index: -100;
-    width: 105%;
-    height: 56vh;
-    filter: blur(10px) grayscale(100%);
-    height: auto;
-  }
-
-  .jumbotronHeader {
-    z-index: 90;
-    background: rgba(0, 0, 0, 0.5);
-    width: 30%;
-    margin: 300px auto 0 auto;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    bottom: 10px;
   }
 
   /*

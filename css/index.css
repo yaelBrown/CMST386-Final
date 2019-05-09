@@ -30,7 +30,7 @@
   }}
 
 /* Larger than desktop */
-@media only screen and (min-width: 1000px) {  
+@media only screen and (min-width: 800px) {  
   /* for testing media queries */
   #img-comp {
     display: none;
@@ -62,7 +62,7 @@
     position: fixed;
     z-index: -100;
     width: 105%;
-    height: 56vh;
+    height: auto;
     filter: blur(10px) grayscale(100%);
     height: auto;
   }
