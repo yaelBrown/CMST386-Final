@@ -10,7 +10,7 @@
 
   i {
     position: absolute;
-    transform: translate( 0.231em, 0em)
+    transform: translate( 0.231em, 0em);
     margin-top: .5em;
     right: 0;
   }

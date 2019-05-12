@@ -61,6 +61,10 @@
     display: flex;   
   }
 
+  .pictures-row-4 {
+    line-height: 1.2em;
+  }
+
   .cols {
     padding: 1em;
   }
