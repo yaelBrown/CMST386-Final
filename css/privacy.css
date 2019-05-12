@@ -45,98 +45,12 @@
   }
 
   /*
-  Social Media
-  */
-  .socialLinks {
-    color: #b2bec3;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 130px;
-  }
-
-  .socialLinkks-Links {
-    padding: 20px;
-  }
-
-  i {
-    font-size: 4em;
-    padding: .2em;
-  }
-
-  /*
-  Random Pictures Section
+    Privacy Area
   */
 
-  .randomPics {
-    margin: 0 auto 0 auto;
-    text-align: center;
+  .privacy {
+    width: 70%;
+    margin: 0 auto 8em auto;
   }
 
-  .randomPics-picsection {
-    display: inline;
-    text-align: center;
-  }
-
-  .randomPics-picsection img{
-    width: 30%;
-    height: auto;
-    display: inline-block;
-  }
-
-  /*
-  Footer
-  */
-  footer {
-    width: 100%;
-  }
-
-  footer ul {
-    list-style: none;
-  }
-
-  .footer {
-    height: 20em;
-    background-color: #636e72;
-    z-index: 85;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-  }
-
-  .footer a {
-    color: #fff;
-    display: flex;
-  }
-
-  .footer-left, .footer-right {
-    margin: 0 auto 0 auto;
-  }
-
-  .footer-left {
-    flex: 1;
-    order: 1;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-  }
-
-  .footer-right {
-    flex: 1;
-    order: 2;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-  }
-
-  .footer-end-row {
-    display: flex;
-  }
-
-  .footer-end {
-    flex: 1;
-    align-content: center;
-    text-align: center;
-  }
 }
