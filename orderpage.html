@@ -12,6 +12,9 @@
     <!-- Montserrat Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
+    <!-- Dancing Script -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="./css/order.css">
 
@@ -41,12 +44,21 @@
       <ul>
         <li><a href="index.html#products"><h4>Products</h4></a></li>
         <li><a href="order.html"><h4>Buy</h4></a></li>
+        <li>
+          <div class="logo">
+            <span id="t">
+              <h1>T</h1>
+            </span>
+            <span id="P">
+              <h1>P</h1>
+            </span>
+          </div>
+        </li>
         <li><a href="pictures.html"><h4>Pictures</h4></a></li>
         <li><a href="aboutus.html"><h4>About Us</h4></a></li>
       </ul>
     </nav>
   
-
     <!-- Main content -->
     <main>
 
@@ -55,28 +67,106 @@
         
         <!-- Order Form -->
         <div class="formArea">
-          <form class="form">
-            <div class="formRow">
-              <label for="travelerMed">Traveler Medium</label>
+          <h2>Order Back Pack</h2>
+          <div class="form-row">
+            <div class="form-bp-titles">
+              <h3>Name of Backpack</h3>
+              <h4>Traveler Medium</h4>
+              <h4>Traveler Heavy</h4>
+              <h4>Getaway Light</h4>
+              <h4>Getaway Medium</h4>
             </div>
-            <div class="formRow">
-              <label for="travelerHeavy">Traveler Heavy</label>
+            <div class="form-bp-qty">
+              <h3>Quantity</h3>
+              <form class="form-bp-order-form">
+                <select>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <br>
+                <select>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <br>
+                <select>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <br>
+                <select>
+                  <option>0</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </form>
             </div>
-            <div class="formRow">
-              <label for="getawayLgt">Getaway Light</label>
+          </div>
+
+          <form class="form-addressForm">
+            <fieldset>
+              <legend>
+                <h3>Shipping/Billing</h3>
+              </legend>
+              <div class="form-row">
+                <form class="form-shipping-isSame">
+                  <div class="form-billing-shipping-isSame">
+                    <h4>Billing and Shipping is the same
+                    <input type="radio" selected>
+                    </h4>
+                  </div>
+                  <div class="form-billing-shipping-different">
+                    <h4>Billing and Shipping is different
+                    <input type="radio">
+                    </h4>
+                  </div>
+                </form>
+              </div>
+
+              <div class="form-row">
+                <div class="form-name-fields">
+                  <label><h4>Name</h4></label>
+                  <label><h4>Address</h4></label>
+                  <label><h4>City</h4></label>
+                  <label><h4>State</h4></label>
+                  <label><h4>Zip Code</h4></label>
+                  <label><h4>Special Instructions</h4></label>
+                </div>
+                <div class="form-input-fields">
+                  <form class="form-inputs">
+                    <input type="text" required tabindex="1">
+                    <input type="text" required tabindex="2">
+                    <input type="text" required tabindex="3">
+                    <input type="text" required tabindex="4">
+                    <input type="number" required tabindex="5">
+                    <textarea row="5" cols="50" tabindex="6"></textarea>
+                  </form>
+                </div>
+              </div>
+
+            </fieldset>
+          </form>              
+          
+          <div class="form-row">
+            <div class="orderBtn">
+              <span>Place your Order !</span>
             </div>
-            <div class="formRow">
-              <label for="getawayMed">Getaway Medium</label>
-            </div>
-          </form>
+          </div>
         </div>
 
         <!-- Random Pictures -->
           <div class="randomPics">
               <div class="randomPics-picsection">
-              <img src="./img/randomBP2.jpg">
-              <img src="./img/randomBP7.jpg">
-              <img src="./img/randomBP8.jpg">
+              <img src="./img/randomBP2.jpg" alt="Random Fan Image">
+              <img src="./img/randomBP7.jpg" alt="Random Fan Image">
+              <img src="./img/randomBP8.jpg" alt="Random Fan Image">
             </div>
           </div>
 
